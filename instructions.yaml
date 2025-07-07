@@ -1,0 +1,9 @@
+task: Generate unit tests
+language: C++
+test_framework: Google Test
+requirements:
+  - No duplicate tests
+  - Use correct C++ syntax
+  - Add all necessary #include statements
+  - Cover all functions in the input file
+  - Output only test code in a single file per input file
